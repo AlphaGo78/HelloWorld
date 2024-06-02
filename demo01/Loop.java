@@ -6,7 +6,7 @@ import java.util.Random;
 public class Loop {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 10; i ++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println("Fry eats cup of coffee #" + i);
         }
 
@@ -26,7 +26,7 @@ public class Loop {
 
         while (i < list.size()) {
             // if value is odd, remove value
-            if (list.get(i) % 2 != 0){
+            if (list.get(i) % 2 != 0) {
                 list.remove(i);
             } else {
                 // if value is even, increment counter
